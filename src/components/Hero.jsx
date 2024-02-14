@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="w-[100%] h-[100vh] absolute top-0 bg-[url('./Images//hero.png')] bg-center bg-no-repeat bg-cover">
       <div className="overlay">
         <div className="flex flex-col items-center justify-center h-screen text-[#FFFBF5]">
           <h1 className="font-semibold uppercase text-3xl sm:text-4xl px-3 mb-2 md:text-6xl lg:text-7xl xl:text-8xl  md:px-[64px] text-center md:mb-8 leading-[1.1] ">
