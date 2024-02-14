@@ -5,7 +5,7 @@ const Properties = () => {
   const navigate = useNavigate();
   return (
     <section className="grid md:grid-cols-3 divide-x-[1px] divide-[#7A7A7A]">
-      <article className=" text-center flex flex-col items-center justify-center pt-[90px]">
+      <article className=" text-center flex flex-col items-center justify-center pt-[90px] hover:bg-[#00000010]">
         <img
           src={"../Images/manwithkey.png"}
           alt="man with key"
@@ -18,7 +18,7 @@ const Properties = () => {
           PROPERTIES
         </h3>
       </article>
-      <article className="bg-[#E3A335] text-[#FFFBF5] text-center flex flex-col items-center justify-center pt-[90px]">
+      <article className="bg-[#E3A335] text-[#FFFBF5] text-center flex flex-col items-center justify-center pt-[90px] hover:bg-[#E3A33590]">
         <img
           src={"../Images/womanwithkey.png"}
           alt="woman with key"

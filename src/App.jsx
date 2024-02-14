@@ -6,6 +6,7 @@ import Properties from "./pages/Properties";
 import Contact from "./pages/Contact";
 import MainLayout from "./Layout/MainLayout";
 import SellProperties from "./pages/SellProperties";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             />
             <Route path="/service" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </MainLayout>
       </BrowserRouter>
